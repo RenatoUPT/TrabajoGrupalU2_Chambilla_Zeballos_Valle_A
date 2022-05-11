@@ -22,7 +22,10 @@ namespace TrabajoGrupal_U2_Chambilla_Zevallos_Valle_A
         {
             if((cbusuario.SelectedIndex == 0 && txtcontraseña.Text == "2020066918") || (cbusuario.SelectedIndex == 1 && txtcontraseña.Text == "2020066916") || (cbusuario.SelectedIndex == 1 && txtcontraseña.Text == "2020066924"))
             {
-               MessageBox.Show("Logeo exitoso","INGRESO",MessageBoxButtons.OK,MessageBoxIcon.Asterisk); 
+               MessageBox.Show("Logeo exitoso","INGRESO",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
+               Banco_de_Sangre frm = new Banco_de_Sangre();
+               frm.Show();        
+
             }
             else
             {
