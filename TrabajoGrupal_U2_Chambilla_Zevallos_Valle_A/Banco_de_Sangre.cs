@@ -36,12 +36,12 @@ namespace TrabajoGrupal_U2_Chambilla_Zevallos_Valle_A
             titulo[1] = new DataGridViewTextBoxColumn();
             titulo[1].HeaderText = "Apellidos";
             titulo[1].Name = "ColApellidos";
-            titulo[1].Width = 90;
+            titulo[1].Width = 150;
 
             titulo[2] = new DataGridViewTextBoxColumn();
             titulo[2].HeaderText = "Nombres";
             titulo[2].Name = "ColNombres";
-            titulo[2].Width = 80;
+            titulo[2].Width = 150;
 
             titulo[3] = new DataGridViewTextBoxColumn();
             titulo[3].HeaderText = "Tipo de Sangre";
@@ -56,7 +56,7 @@ namespace TrabajoGrupal_U2_Chambilla_Zevallos_Valle_A
             titulo[5] = new DataGridViewTextBoxColumn();
             titulo[5].HeaderText = "Dirección";
             titulo[5].Name = "ColDireccion";
-            titulo[5].Width = 100;
+            titulo[5].Width = 150;
 
             titulo[6] = new DataGridViewTextBoxColumn();
             titulo[6].HeaderText = "Telefono";
@@ -66,7 +66,7 @@ namespace TrabajoGrupal_U2_Chambilla_Zevallos_Valle_A
             titulo[7] = new DataGridViewTextBoxColumn();
             titulo[7].HeaderText = "Fecha y hora";
             titulo[7].Name = "ColFechaHora";
-            titulo[7].Width = 90;
+            titulo[7].Width = 110;
 
             dgvregistros.Columns.AddRange(titulo);
 

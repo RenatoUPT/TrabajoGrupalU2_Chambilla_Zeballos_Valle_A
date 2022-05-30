@@ -16,7 +16,7 @@ namespace TrabajoGrupal_U2_Chambilla_Zevallos_Valle_A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Banco_de_Sangre());
+            Application.Run(new Form1());
         }
     }
 }
